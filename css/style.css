@@ -492,29 +492,24 @@ button:focus{
     content:"";
     position: absolute;
 }
-.contact{}
 
 footer{
     position: relative;
     bottom: 60px;
-    
-}
+   }
 footer ul{
     padding-left: 0;
     list-style: none;
     display: flex;
     justify-content: space-evenly;
-   
-}
+   }
 footer li{
     margin-top: 15px;
 }
 footer a{
     font-size: 22px;
     color: var(--main-c);
-   
-   
-}
+      }
 footer a svg:hover{
     transform: scale(1.1);
     transition: all 0.3s ease-in-out;
@@ -531,57 +526,6 @@ footer a svg:hover{
 }
 
 /* landing end  */
-/* exp-about start  */
-/* .exp ,.about{
-    padding: 40px;
-    min-height: 30vh;
-    position: relative;
-    z-index: 0;
-}
-.about p{
-    padding: 30px 0;
-    font-size: 1.6rem;
-    line-height: 1.7;
-    font-weight: 100;
-    max-width: 70%;
-    display: block;
-    margin: 0 auto;
-}
-.about{
-    background: var(--f-c);
-}
 
-.exp h3,.about h3{
-   
-        padding: 7px;
-    position: relative;
-    width: fit-content;
-    color: var(--main-c);
-    font-size: 35px;
-    font-weight: bold;
-    letter-spacing: 3px;
-}
-.exp h3::after,
-.about h3::after{
-    /* content: "";
-    position: absolute;
-    height: 100%;
-    width: 50%;
-    transition: all 1s;
-    left: 0;
-    top:0; */
-    /* z-index: -1;
-    border-left: 4px solid var(--sec-c);
-    border-top:4px solid var(--sec-c); */
-    /* border-bottom:4px solid var(--sec-c) */
-    /* background: linear-gradient(90deg, var(--sec-c),var(--th-c),var(--f-c) );  */
-}
-/* .exp h3:hover::after,
-.about h3:hover::after{
-    width: 100%;
-    } */
-
-
-/*exp end  */
 
 
